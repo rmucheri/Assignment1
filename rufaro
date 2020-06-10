@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Best Sports in the World</title>
+	<link style="text/css" rel="stylesheet" href="mod2assnt.css">
+  body {
+	color: blue;
+	font-size: 16px;
+	background-color: lightblue;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+p {
+	border: 2px solid blue;
+	float: left;
+	border-radius: 15px;
+}
+
+#p3 {
+	background-color: green;
+	width: 66%;
+	height: 200px;
+	padding: 0px;
+	margin-left: 2px;
+
+
+}
+#p1 {
+
+    background-color: orange;
+    width: 33%;
+    height: 200px;
+    padding: 0px; 
+    margin-right: 2px;
+}
+
+#p2 { 
+	color: white;
+    background-color: red;
+    width: 33%;
+    height:200px;
+    padding: 0px;
+
+  }
+
+  @media (min-width: 992px) {
+  	#p1, #p2, #p3 {
+  		width: 33%;
+  	}
+
+  	 }
+  }
+
+  @media (min-width: 768px) and (max-width: 991px) {
+  	#p1, #p2 {
+  		width: 33%;
+  	}
+
+  	#p3 {
+  		width: 66%;
+  	}
+  }
+@media (max-width: 767px) {
+	#p1, #p2, #p3{
+		width: 100%
+	}
+}
+
+span {
+	color: white;
+	text-align: center;
+	float: left;
+	border: 1px solid black;
+	width: 70px;
+	height: 30px;
+	margin-left: 2px;
+    background-color: grey;
+    float: left;
+    display: block;
+    border-radius: 35px;
+    border-color: white;
+    border-style: 1px dashed;
+
+}
+</head>
+<body>
+	<h1>TEAMS</h1>
+	<p id="p1"><span class="nfl">NFL</span><br>
+	The National Football league, America s national sport. The NFL final aka Superbowl, Millions of americans tune in to go what this amazing sporting evernt. The half time show is often star studded and a specticle to watch. My favorite team is Seattle Seahawks
+	<p id="p2"><span>NHL</span>The National Hockey League is a North American sport palyed in the Canada and the United States. Its Canada s official winter sport, they play the Stanley Cup Championship after an 82 game season. They have 4 rounds of 7 game playoffs. My favorite NHL team is the Calgary Flames
+	<p id="p3"><span>EPL</span>The English Premier League is the most popular soccer league in Europe, All the world s best talent want to play in the UK. My favorite team is Machester United who have won 20 titles.
+		
+			    
+</body>
+</html>
